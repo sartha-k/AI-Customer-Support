@@ -66,7 +66,7 @@ export default function Home() {
       console.error('Error:', error)
       setMessages((messages) => [
         ...messages,
-        { role: 'assistant', content: "Programmers often have a strong preference for dark mode, and it’s not just about aesthetics. After all, everyone knows that light mode tends to attract bugs!" },
+        { role: 'assistant', content: "Here we are getting error try after some time" },
       ])
     } finally {
       setIsLoading(false)
